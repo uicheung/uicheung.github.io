@@ -36,3 +36,6 @@ $ hexo deploy
 ```
 
 More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
+
+test img
+![RUNOOB 图标](../.././public/images/favicon.png)
