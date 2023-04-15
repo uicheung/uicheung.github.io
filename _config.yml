@@ -105,7 +105,7 @@ theme: leedom
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: 'git'
-  repo: https://github.com/uicheung/blog-hexo.git
+  repo: git@github.com:uicheung/uicheung.github.io.git
   branch: gh-pages
   message: some message
   
