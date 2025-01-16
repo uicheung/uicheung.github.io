@@ -19,6 +19,7 @@ git commit -m "deploy $(date '+%Y-%m-%d %H:%M:%S')"
 # git push -f git@github.com:uicheung/uicheung.github.io.git master
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:uicheung/uicheung.github.io.git master:gh-pages
+git branch -M gh-pages
+git push -f git@github.com:uicheung/uicheung.github.io.git gh-pages
 
 cd -
